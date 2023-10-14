@@ -17,7 +17,7 @@ body {
 
 .logo {
     width: 390px;
-    height: 300px;
+    height: 200px;
 }
 
 img {
@@ -190,7 +190,7 @@ a {
 
     .logo {
         width: 100%;
-        height: auto;
+        height: 300px;
     }
 
     h1 {
