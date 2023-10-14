@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+
+body {
+    max-height: 844px;
+    display: grid;
+    place-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 390px;
+    height: 300px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0 0 20px 20px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.title-color {
+    color: #fff;
+}
+
+/* =========================================== */
+
+.form-box {
+    width: 222px;
+    height: 60px;
+    justify-self: center;
+}
+
+.button-box {
+	margin: 20px auto;
+	position: relative;
+	border-radius: 20px;
+	background-color: #e67e22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px #333;
+}
+
+.toggle-btn-light {
+	/* padding: 10px 40px; */
+    width: 111px;
+    height: 60px;
+	background: none;
+	border: 0;
+    border-radius: 20px;
+	outline: none;
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: #333;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.toggle-btn-dark {
+	/* padding: 10px 40px; */
+    width: 111px;
+    height: 60px;
+	background: none;
+	border: 0;
+    border-radius: 20px;
+	outline: none;
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: #333;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.dark-theme {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+#btn {
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 111px;
+	height: 60px;
+	background: #fff;
+	border-radius: 20px;
+    box-shadow: 2px 2px 8px #333;
+	transition: .5s;
+}
+
+/* .white-shadow {
+    box-shadow: 2px 2px 8px #fff;
+} */
+
+/* ========================================== */
+
+.joke-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+
+
+/* Estilos para dispositivos de tela pequena, como smartphones */
+/* @media screen and (min-width: 768px) {
+    body {
+      max-height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .logo {
+      width: 100%;
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 18px;
+      margin-top: 30px;
+    }
+  
+    h3 {
+      font-size: 14px;
+    }
+  
+    .button-box {
+      margin: 10px auto;
+    }
+  
+    .toggle-btn-light, .toggle-btn-dark {
+      width: 100px;
+      height: 50px;
+      font-size: 12px;
+    }
+  } */
+  
+
+
+/* Estilos para dispositivos menores, como smartphones */
+@media screen and (max-width: 767px) {
+    body {
+        max-height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-size: 16px;
+        width: 80%; /* Ajuste a largura conforme necessário */
+    }
+
+    .button-box {
+        margin: 10px auto;
+    }
+}
