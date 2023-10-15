@@ -33,6 +33,8 @@ const piadas = [
     "O meu chefe disse-me para ter um bom dia. Então, fui para casa!",
     "O que é que Deus disse depois de criar o homem? Acho que posso melhorar!",
     "Uma mãe pergunta ao filho: - Manuel, você acha que eu sou uma má mãe? Filho: - O meu nome é Tiago!",
+    `Como se chama um cão sem patas? Não se chama, vai-se buscar.`,
+    `Paciente: Doutor, sinto-me bloqueado. Médico: No Facebook ou no Instagram?`,
 
 
     // console.log(Math.floor(Math.random() * 42) + 1)

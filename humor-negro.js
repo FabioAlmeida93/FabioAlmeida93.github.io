@@ -23,6 +23,12 @@ const piadas = [
     "Qual foi a ultima coisa a passar pela mente da Princesa Diana? O volante.",
     "Porque é que as crianças etíopes não fazem sesta? Porque a sesta é depois do almoço",
     "Vai um preto e um cigano num carro. Quem é que vai a conduzir? A polícia.",
+    "Qual a diferença entre um padre e um tenista? As bolas com que o tenista brinca têm pelinhos",
+    "Qual é a parte mais dura de um vegetal? A cadeira de rodas.",
+    `Um preto vai a um café e pede um chá.
+    O dono do café pergunta: "chá verde ó preto?".
+    Ao que o preto responde: "pode ser".`,
+    `Como se chama um cão sem patas? Não se chama, vai-se buscar.`,
 
 
   ];
